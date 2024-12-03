@@ -1,0 +1,51 @@
+.checkout-progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.step-container {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.step-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.step-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+
+.step-label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.active .step-circle {
+    border-color: rgb(63, 127, 223);
+    background-color: rgb(63, 127, 223);
+}
+
+.inactive .step-circle {
+    border-color: gray;
+}
+
+.active .step-label {
+    color: rgb(63, 127, 223);
+}
+
+.inactive .step-label {
+    color: gray;
+}

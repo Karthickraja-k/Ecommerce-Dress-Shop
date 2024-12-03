@@ -1,0 +1,27 @@
+/* Remove borders from table columns and rows */
+.table th,
+.table td {
+  border: none;
+}
+
+.table-bordered {
+  border: none;
+}
+
+/* Remove borders from table columns */
+/* .table th,
+.table td {
+  border-right: none;
+}
+
+.table-bordered {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+
+.table th,
+.table td {
+  padding: 8px;
+} */
+
